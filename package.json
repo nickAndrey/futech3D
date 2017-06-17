@@ -1,0 +1,28 @@
+{
+  "name": "futech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickAndrey/futech3D.git"
+  },
+  "author": "Black_Moon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickAndrey/futech3D/issues"
+  },
+  "homepage": "https://github.com/nickAndrey/futech3D#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
