@@ -24,4 +24,9 @@ $(document).ready(function(){
             '<i class="fa fa-chevron-right" aria-hidden="true"></i>'
         ],
     });
+
+    $('.open_menu').click(function(){
+            $('.mobile_menu_list').slideToggle();
+    });
+
 });
