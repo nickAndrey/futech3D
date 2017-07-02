@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css">
     <link rel="stylesheet" href="public/main.min.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>index page</title>
 </head>
@@ -51,16 +53,16 @@
     <div class="carousel_bar">
         <div id="owl-first" class="owl-carousel">
             <div class="slide">
-                <div class="row row_betw">
+                <div class="row">
                     <div class="buy_pr">
                         купи принтер 3d для производства
                     </div>
-                    <a href="#" class="buy_pr_but">впервые</a>
                 </div>
                 <div class="row row_end">
                     <div class="to_rent">
                         или возьми в аренду сейчас
                     </div>
+                    <a href="#" class="buy_pr_but">впервые</a>
                 </div>
                 <img src="img/carousel/carousel-bg/bg-carousel.jpg" alt="img">
             </div>
@@ -88,6 +90,14 @@
                     [ZORTRAX M200]
                 </a>
             </div>
+            <div class="col">
+                <div class="circle_prod">
+                    <a href="#" class="cart"></a>
+                </div>
+                <a href="#" class="prod_subscribe">
+                    [ZORTRAX M200]
+                </a>
+            </div>
         </div>
         <div class="row row_center no-row">
             <a href="#" class="cont_but">связаться с нами</a>
@@ -97,26 +107,28 @@
 
     <!-- how we work -->
     <div class="how_work">
-        <div class="how_work_title">
-            как мы работаем с клиентами?
-        </div>
-        <div class="study">
+        <div class="row">
             <div class="col">
-                <div class="bord">
-                    <div class="bg_bord"></div>
+                <div class="how_work_title">
+                    как мы работаем с клиентами?
+                </div>
+                <div class="row_end">
+                    <div class="bord"></div>
                 </div>
             </div>
             <div class="col">
-                <div class="stud">
-                    <a href="#">обучение</a>
-                    <p>Наш специалист научит вас<br> пользоваться технологией.</p>
-                </div>
-                <div class="line"></div>
-                <a href="#" class="support">техподдержка</a>
-                <div class="line"></div>
-                <div class="test_prod">
-                    <a href="#">тестирование продукта</a>
-                    <p>Возьмите в аренду и протестируй<br> 3D технологии в своем бизнесе!</p>
+                <div class="study">
+                    <div class="stud">
+                        <a href="#">обучение</a>
+                        <p>Наш специалист научит вас<br> пользоваться технологией.</p>
+                    </div>
+                    <div class="line"></div>
+                    <a href="#" class="support">техподдержка</a>
+                    <div class="line"></div>
+                    <div class="test_prod">
+                        <a href="#">тестирование продукта</a>
+                        <p>Возьмите в аренду и протестируй<br> 3D технологии в своем бизнесе!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,27 +141,22 @@
         <!-- client carousel -->
         <div id="owl-second" class="owl-carousel">
             <div class="car-2-slide">
-                <div class="row row_betw row_column">
-                    <div class="photo_comment row">
+                <div class="row">
+                    <div class="col">
                         <div class="photo"></div>
-                        <div class="comment">
-                            Здесь начинаются отличная история отзыв с важными элементами: чем помог принтер в развитии проекта!!
-                        </div>
                     </div>
-                    <div class="subscribe_links row">
-                        <div class="subscribe">
-                            <div class="name_client">Сюзанна Новак, ooo”скай”</div>
-                            <span>архитектор</span>
-                            <br>
-                            <a href="#">www.sky.pl</a>
+                    <div class="col row_column">
+                        <div class="slide-info">
+                            <p>Здесь начинаются отличная история отзыв с важными элементами: чем помог принтер в развитии проекта!!</p>
                         </div>
-                        <div class="links">
-                            <a href="#">
+                        <div class="row">
+                            <a href="#" class="fb">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
+                            <div class="subscribe">
+                                <p>архитектор</p>
+                                <p>www.sky.pl</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -161,22 +168,31 @@
 
     <!-- Services -->
     <div class="services">
-        <img src="img/services/quotes.png" alt="quotes">
-        <h2>[Научим использовать 3D технологии для развития вашего бизнеса]</h2>
-        <ul>
-            <li>
-                <img src="img/services/item-1.png" alt="item">
-                <div class="info">печать</div>
-            </li>
-            <li>
-                <img src="img/services/item-2.png" alt="item">
-                <div class="info">сканирование</div>
-            </li>
-            <li>
-                <img src="img/services/item-3.png" alt="item">
-                <div class="info">проектирование</div>
-            </li>
-        </ul>
+        <!-- <img src="img/services/quotes.png" alt="quotes" class="quotes"> -->
+        <div class="m_width">
+            <div class="col">
+                <div class="row">
+                    <h2>[Научим использовать 3D технологии</h2>
+                </div>
+                <div class="row row_end">
+                    <h2>для развития вашего бизнеса]</h2>
+                </div>
+            </div>
+            <ul class="col">
+                <li>
+                    <img src="img/services/item-1.png" alt="item">
+                    <div class="info">печать</div>
+                </li>
+                <li>
+                    <img src="img/services/item-2.png" alt="item">
+                    <div class="info">сканирование</div>
+                </li>
+                <li>
+                    <img src="img/services/item-3.png" alt="item">
+                    <div class="info">проектирование</div>
+                </li>
+            </ul>
+        </div>
     </div>
     <!-- end Services -->
 
