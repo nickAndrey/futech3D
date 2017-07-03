@@ -28,5 +28,4 @@ $(document).ready(function(){
     $('.open_menu').click(function(){
             $('.mobile_menu_list').slideToggle();
     });
-
 });
